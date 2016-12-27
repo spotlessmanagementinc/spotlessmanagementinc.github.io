@@ -14,7 +14,7 @@ body {
 }
 .bubbles{
   
-    background-image:url('../images/lp_dbluebubbles_2.png') no-repeat center center fixed;
+    background-image:url('./images/lp_dbluebubbles_2.png') no-repeat center center fixed;
    -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
