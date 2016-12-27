@@ -14,7 +14,7 @@ body {
 }
 div.bubbles{
   
-    background:blue;
+    background-color:blue;
    -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
