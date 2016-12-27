@@ -14,7 +14,7 @@ body {
 }
 .bubbles{
   
-    background-color:blue;
+    background-image:url('./images/lp_dbluebubbles_2.png');
 
 }
 article,
@@ -245,11 +245,7 @@ th {
   }
   .bubbles{
   
-    background-image:url('../images/lp_dbluebubbles_2.png') no-repeat center center fixed;
-   -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;  
+        background-image:url('./images/lp_dbluebubbles_2.png')
   }
   .navbar {
     display: none;
