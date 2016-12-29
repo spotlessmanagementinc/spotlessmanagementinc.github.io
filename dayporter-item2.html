@@ -138,7 +138,7 @@
                     <small></small>
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="services.html">Services</a>
                     </li>
                     <li class="active">Day Porter</li>
                 </ol>
@@ -572,22 +572,22 @@
 		player.stopVideo();
 	  }
 	  // When the window is resized
-		$(window).resize(function() {
+	$(window).resize(function() {
 
-		  var newWidth = $fluidEl.width();
+	  var newWidth = $fluidEl.width();
 
-		  // Resize all videos according to their own aspect ratio
-		  $player.each(function() {
+	  // Resize all videos according to their own aspect ratio
+	  $player.each(function() {
 
-			var $el = $(this);
-			$el
-			  .width(newWidth)
-			  .height(newWidth * $el.data('aspectRatio'));
+		var $el = $(this);
+		$el
+		  .width(newWidth)
+		  .height(newWidth * $el.data('aspectRatio'));
 
-		  });
+	  });
 
-		// Kick off one resize to fix all videos on page load
-		}).resize();
+	// Kick off one resize to fix all videos on page load
+	}).resize();
 	</script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
