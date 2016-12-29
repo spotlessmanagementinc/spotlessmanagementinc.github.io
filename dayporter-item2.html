@@ -440,8 +440,8 @@
                             Project Details 
                             <h2>Instructional Video</h2>
                             <p class="item-intro text-muted">Professional Cleaning</p>
-                            <div class="row">
-								<div class="col-lg-8 center-block" height="350" width="640">
+                            <div class="row" height="350">
+								<div class="col-lg-8 center-block">
 								<div id="player"></div>
 
 									<!--<iframe id="#video" class="responsive center-block" width="560" height="315" src="https://www.youtube.com/embed/1OE3ebrAZrI" frameborder="0" allowfullscreen></iframe>-->
@@ -543,7 +543,7 @@
 	  var player;
 	  function onYouTubeIframeAPIReady() {
 		player = new YT.Player('player', {
-		  height: 'auto',
+		  height: '100%',
 		  width: '100%',
 		  videoId: '1OE3ebrAZrI',
 		  events: {
