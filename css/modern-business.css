@@ -21,8 +21,12 @@ body {
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
-img,div.carousel-inner,
-div.carousel slide{
+img{
+	border-radius: 8px;
+
+
+}
+#carousel-example-generic{
 	border-radius: 8px;
 
 
