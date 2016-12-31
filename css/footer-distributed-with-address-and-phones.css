@@ -35,7 +35,17 @@
 	font: normal 28px 'Cookie', cursive;
 	margin: 0;
 }
+#roundedmap {
+    position: absolute;
+    opacity: 0;
+    top: 0px;
 
+    border-radius: 8px;
+    overflow: hidden;
+}
+#roundedmap iframe{
+	border-radius:8px;
+}
 .footer-distributed h3 span{
 	color:  #5383d3;
 }
