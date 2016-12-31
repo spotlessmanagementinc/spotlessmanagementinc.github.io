@@ -49,6 +49,10 @@ span#cursive{
 #roundedmap iframe{
 	border-radius:8px;
 }
+#neonaccent{
+	background-color: #94c64d;
+	border-radius:30px;
+}
 .footer-distributed h3 span{
 	color:  #5383d3;
 }
