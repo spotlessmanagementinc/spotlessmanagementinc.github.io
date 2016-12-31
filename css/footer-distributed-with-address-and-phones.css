@@ -37,11 +37,11 @@
 }
 #roundedmap {
     position: absolute;
-    opacity: 0;
+    opacity: .5;
     top: 0px;
     left: 10px;
     width: 300px;
-    height: 200px;
+    height: 300px;
     border-radius: 8px;
     overflow: hidden;
 }
