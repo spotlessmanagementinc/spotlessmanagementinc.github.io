@@ -37,7 +37,7 @@
 }
 #roundedmap {
     position: absolute;
-    opacity: 0;
+
     top: 0px;
 
     border-radius: 8px;
