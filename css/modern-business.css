@@ -26,7 +26,10 @@ img{
 
 
 }
-
+.carousel{
+	overflow:hidden;
+	background-color: rgba(0,0,0,0);
+}
 .img-portfolio {
     margin-bottom: 30px;
 }
