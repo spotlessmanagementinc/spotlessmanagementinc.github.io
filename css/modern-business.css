@@ -21,15 +21,12 @@ body {
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
+
 img{
 	border-radius: 8px;
 	overflow:hidden;
-
-
 }
-iframe{
-	border-radius:8px;
-}
+
 .carousel .item{
 	border-radius: 8px;
 	overflow:hidden;
