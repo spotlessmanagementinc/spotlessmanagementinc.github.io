@@ -30,6 +30,11 @@
 	font: normal 36px 'Cookie', cursive;
 	margin: 0;
 }
+#cursive{
+	display:inline-block;
+	font: normal 28px 'Cookie', cursive;
+	margin: 0;
+}
 
 .footer-distributed h3 span{
 	color:  #5383d3;
