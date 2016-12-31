@@ -35,6 +35,9 @@
 	font: normal 28px 'Cookie', cursive;
 	margin: 0;
 }
+span#cursive{
+	font: normal 22px 'Cookie', cursive;
+}
 #cursive span{
 	color: #94c64d;
 }
