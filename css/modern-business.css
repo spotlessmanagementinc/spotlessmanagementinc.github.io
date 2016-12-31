@@ -26,7 +26,9 @@ img{
 	border-radius: 8px;
 	overflow:hidden;
 }
-
+#shadowlogo{
+	 box-shadow:8px 8px 5px #333;
+}
 .carousel .item{
 	border-radius: 8px;
 	overflow:hidden;
