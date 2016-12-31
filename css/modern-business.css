@@ -27,6 +27,9 @@ img{
 
 
 }
+iframe{
+	border-radius:8px;
+}
 .carousel .item{
 	border-radius: 8px;
 	overflow:hidden;
