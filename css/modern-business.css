@@ -30,7 +30,11 @@ nav.navbar.shrink {
 	min-height: 50px;
 	} 
 nav.navbar{
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> origin/master
    // Animation
    -webkit-transition: all 0.4s ease;
    transition: all 0.4s ease;
