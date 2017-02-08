@@ -26,6 +26,15 @@ img{
 	border-radius: 8px;
 	overflow:hidden;
 }
+nav.navbar.shrink {
+	min-height: 50px;
+	} 
+nav.navbar{
+  background-color:#ccc;
+   // Animation
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}	
 #shadowlogo{
 	 box-shadow:8px 8px 5px #333;
 }

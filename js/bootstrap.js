@@ -2361,3 +2361,6 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+$(window).on("scroll", function() {
+    $("nav.navbar").toggleClass("shrink", $(this).scrollTop() > 50)
+})(jQuery);
