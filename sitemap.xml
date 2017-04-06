@@ -10,22 +10,19 @@
     <loc>http://www.spotlessmanagement.com/about.html</loc> 
   </url>
   <url>
-    <loc>http://www.spotlessmanagement.com/apartmentcleaning-item.html</loc> 
+    <loc>http://www.spotlessmanagement.com/apartmentcleaning.html</loc> 
   </url>
   <url>
     <loc>http://www.spotlessmanagement.com/careers.html</loc> 
   </url>
   <url>
-    <loc>http://www.spotlessmanagement.com/commercialcleaning-item.html</loc> 
+    <loc>http://www.spotlessmanagement.com/commercialcleaning.html</loc> 
   </url>
   <url>
     <loc>http://www.spotlessmanagement.com/contact.html</loc> 
   </url>
   <url>
-    <loc>http://www.spotlessmanagement.com/dayporter-item2.html</loc> 
-  </url>
-  <url>
-    <loc>http://www.spotlessmanagement.com/janitorial-item.html</loc> 
+    <loc>http://www.spotlessmanagement.com/dayporterservices.html</loc> 
   </url>
   <url>
     <loc>http://www.spotlessmanagement.com/job_dayporter.html</loc> 
@@ -34,16 +31,22 @@
     <loc>http://www.spotlessmanagement.com/leaseagent.html</loc> 
   </url>
   <url>
-    <loc>http://www.spotlessmanagement.com/leasing-item.html</loc> 
+    <loc>http://www.spotlessmanagement.com/apartmentleasing.html</loc> 
   </url>
   <url>
-    <loc>http://www.spotlessmanagement.com/maintenance-item.html</loc> 
+    <loc>http://www.spotlessmanagement.com/propertymaintenance.html</loc> 
   </url>
   <url>
     <loc>http://www.spotlessmanagement.com/maintenancetech.html</loc> 
   </url>
   <url>
     <loc>http://www.spotlessmanagement.com/overview.html</loc> 
+  </url>
+  <url>
+    <loc>http://www.spotlessmanagement.com/groundskeeping.html</loc> 
+  </url>
+  <url>
+    <loc>http://www.spotlessmanagement.com/job_groundskeeper.html</loc> 
   </url>
 </urlset>
 
