@@ -212,45 +212,45 @@
         <!-- /.row -->
 
         <!-- Contact Form -->
-        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. 
+        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
         <div class="row">
             <div class="col-md-8">
                 <h3>Send us a Message</h3>
-                <form name="sentMessage" id="contactForm" novalidate method="post" action="./contact-form/contact-form.php" >
+                <form name="sentMessage" id="contactForm" novalidate method="post" action="./bin/contact_me.php" >
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Full Name:</label>
-                            <input name="fullname" type="text" class="form-control" id="fullname" required data-validation-required-message="Please enter your name.">
+                            <input name="fullname" type="text" class="form-control" name="name"  id="name" required data-validation-required-message="Please enter your name.">
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Phone Number:</label>
-                            <input name="phone" type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <input name="phone" type="tel" class="form-control" name="phone"  id="phone" required data-validation-required-message="Please enter your phone number.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Email Address:</label>
-                            <input name="emailid" type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                            <input name="emailid" type="email" class="form-control" name="email"  id="email" required data-validation-required-message="Please enter your email address.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Message:</label>
-                            <textarea name="message" rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                            <textarea name="message" rows="10" cols="100" class="form-control" name="message"  id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
                         </div>
                     </div>
                    <div id="success"></div>
-                     For success/fail messages
+                     <!--For success/fail messages-->
                     <button name="submit" type="submit" class="btn btn-primary">Send Message</button>
                 </form>
 				<p></p>
             </div>
 
         </div>
-         /.row -->
+         <!--/.row -->
 
         <hr>
 	</div>
@@ -343,7 +343,7 @@
 				</p>
 					
 				</div>
-				<div class="footer-center">
+				<div class="footer-center text-center">
 				<p style="color:#ffffff;font-size:14px;padding-top:7px">Better Business Bureau
 					<img src="./images/BBB_logo.png" width="20%" height="20%"></img>								
 				</p>
@@ -354,10 +354,20 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer-copy" style="background-color:#3e4143;color:#ffffff;padding: 10px 10px">
+		<!-- Bottom Footer -->
+		<div class="footer-distributed" style="background-color:#3e4143;padding: 10px 10px">
 			<div class="container">
 				<div class="footer-left">
-					<p class="footer-company-name">&copy; Spotless Management, Inc. 2017</p>
+					<p style="color:#ffffff;font-size:12px;padding-top:7px" class="footer-company-name">&copy; Spotless Management, Inc. 2017</p>
+				</div>
+				<div class="footer-center  text-center">
+					<p class="footer-company-name" style="color:#ffffff;font-size:12px;padding-top:7px"><a href="missionstatement.html" style="color:#ffffff;">Mission Statement</a>
+						| <a  style="color:#ffffff;" href="privacypolicy.html">Privacy Policy</a> | <a  style="color:#ffffff;" href="sitemap.html">Site Map</a> 								
+					</p>
+					
+				</div>
+				<div class="footer-right">
+					
 				</div>
 			</div>
 		</div>
