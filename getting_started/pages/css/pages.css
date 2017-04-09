@@ -5764,6 +5764,8 @@ Bounce css
   width:50px;
   background:;
   -webkit-animation:bounce 1s infinite;
+  -webkit-animation-delay:10s;
+  animation-delay: 10s;
 }
 
 @-webkit-keyframes bounce {
