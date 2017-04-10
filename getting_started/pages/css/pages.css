@@ -28,6 +28,7 @@ Generated From LESS
 21. Hover
 22. Pricing
 23. Blog
+24. Custom
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [1. Layouts]
@@ -8769,3 +8770,10 @@ sup.dollar {
   }
 }
 /*** Retina Display Images **/
+/*-- Custom CSS-----------*/
+#purpcolor{
+	color:#584b8d;	
+}
+#purpcolor:hover{
+	color:#8a7dbe;	
+}
