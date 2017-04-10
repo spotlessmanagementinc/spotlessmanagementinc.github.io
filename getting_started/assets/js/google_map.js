@@ -21,7 +21,7 @@
             zoom: zoomLevel,
             disableDefaultUI: true,
             // The latitude and longitude to center the map (always required)
-            center: new google.maps.LatLng(40.6700, -73.9400), // New York
+            center: new google.maps.LatLng(33.7678358, -84.4906438), //<--Atlanta,GA// New York 40.6700, -73.9400
             scrollwheel: false,
             // Map styling
             styles: [{
