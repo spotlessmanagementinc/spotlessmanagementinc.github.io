@@ -8775,5 +8775,21 @@ sup.dollar {
 	color:#584b8d;	
 }
 #purpcolor:hover{
-	color:#8a7dbe;	
+	color: #584b8d;
+    animation-name: example;
+    animation-duration: 4s;
+	animation-iteration-count:infinite;
+	animation-direction: alternate;
+}
+@keyframes example {
+    0% {color: #584b8d;}
+    20% {color: #8d4b5e;}
+	40%{color: #7f8d4b;}
+	60%{color: #4b8d79;}
+	80%{color: #794b8d;}
+	100% {color: pink;}
+}
+#shadowy{
+	
+	text-shadow: 2px 2px 2px black;
 }
