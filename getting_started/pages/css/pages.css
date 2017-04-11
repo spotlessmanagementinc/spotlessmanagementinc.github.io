@@ -4582,13 +4582,13 @@ form legend {
   -webkit-appearance: none;
   color: #2c2c2c;
   outline: 0;
-  height: 35px;
+  height: 25px;
   padding: 9px 12px;
   line-height: normal;
   font-size: 14px;
   font-weight: normal;
   vertical-align: middle;
-  min-height: 35px;
+  min-height: 25px;
   -webkit-transition: all 0.12s ease;
   transition: all 0.12s ease;
   -webkit-box-shadow: none;
@@ -8797,3 +8797,74 @@ sup.dollar {
 	 -webkit-filter: drop-shadow(2px 2px 2px #000);
 	 filter: drop-shadow(2px 2px 2px #000);
 }
+ @keyframes cf3FadeInOut {
+0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+ #cf {
+  position:absolute; 
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img {
+  animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 48s;
+
+
+}
+#cf img:nth-of-type(1) {
+  animation-delay: 36s;
+}
+#cf img:nth-of-type(2) {
+  animation-delay: 24s;
+}
+#cf img:nth-of-type(3) {
+  animation-delay: 12s;
+}
+#cf img:nth-of-type(4) {
+  animation-delay: 0;
+}
+.image-fade{
+	position: relative;
+	width:1920;
+	height:1080;
+}
+ .form-custom{
+	 position:absolute;
+	 margin-top:500px;
+	 width:100%;
+	 }
+.arrow-locate {
+  background-image: url(../images/white.svg);
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 7px;
+  left: calc(50% - 14px);
+  margin-top: 10px;
+  position: absolute;
+}	 
