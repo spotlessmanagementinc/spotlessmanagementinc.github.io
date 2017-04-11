@@ -8850,21 +8850,21 @@ animation-duration: 48s;
   animation-delay: 0;
 }
 .image-fade{
+	background-color:#000000;
 	position: relative;
 	width:1920;
 	height:1080;
 }
  .form-custom{
 	 position:absolute;
-	 margin-top:500px;
+	 margin-top:550px;
 	 width:100%;
 	 }
-.arrow-locate {
-  background-image: url(../images/white.svg);
-  background-repeat: no-repeat;
-  width: 14px;
-  height: 7px;
-  left: calc(50% - 14px);
-  margin-top: 10px;
-  position: absolute;
-}	 
+.fade-in-on-load {
+    opacity: 0;
+    will-change: transition;
+    transition: opacity .09s ease-out;
+}	
+#content img { 
+    display:none; 
+} 

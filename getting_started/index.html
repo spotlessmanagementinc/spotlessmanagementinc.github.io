@@ -19,12 +19,20 @@
     <link href="assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css">
     <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="assets/plugins/swiper/css/swiper.css" rel="stylesheet" type="text/css" media="screen">
     <!-- END PLUGINS -->
     <!-- BEGIN PAGES CSS -->
     <link class="main-stylesheet" href="pages/css/pages.css" rel="stylesheet" type="text/css">
     <link class="main-stylesheet" href="pages/css/pages-icons.css" rel="stylesheet" type="text/css">
     <!-- BEGIN PAGES CSS -->
+	<script src="https://unpkg.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#loadpage").hide();
+			$("#loadpage").bind("load", function () { $(this).fadeIn(); });
+		});
+	</script>
   </head>
   <body class="pace-dark">
     <!-- BEGIN HEADER -->
@@ -39,6 +47,18 @@
 				<span class="icon-bar"></span>
 				</button>-->	
 				<div class="collapse navbar-collapse">
+					<div class="pull-left m-t-10" >
+						<a href="" class="facebook" title="Facebook" target="blank"><i id="purpcolor" id="link" class=" fa fa-facebook-square fa-2x"></i></a>
+						<a href="" class="twitter" title="Twitter" target="blank"><i id="purpcolor"  class="fa fa-twitter-square fa-2x"></i></a>
+						<a href="" class="googleplus" title="GooglePlus" target="blank"><i id="purpcolor"   class="fa fa-google-plus-square fa-2x"></i></a>
+						<a href="" class="linkedin" title="LinkedIn" target="blank"><i id="purpcolor"   class="fa fa-linkedin-square fa-2x"></i></a>
+						<a href="" class="youtube" title="Youtube" target="blank"><i id="purpcolor"  class="fa fa-youtube-square fa-2x"></i></a>
+						<a href="" class="snapchat" title="Snapchat" target="blank"><i id="purpcolor"  class="fa fa-snapchat-square fa-2x"></i></a>
+						<a href="" class="pinterest" title="Pinterest" target="blank"><i id="purpcolor"  class="fa fa-pinterest-square fa-2x"></i></a>
+						<a href="" class="reddit" title="Reddit" target="blank"><i id="purpcolor"  class="fa fa-reddit-square fa-2x"></i></a>
+						<a href="" class="tumblr" title="Tumblr" target="blank"><i id="purpcolor"  class="fa fa-tumblr-square fa-2x"></i></a>
+						<a href="" class="flickr" title="Flickr" target="blank"><i id="purpcolor"  class="fa fa-flickr fa-2x"></i></a>
+					</div>
 					<ul class="nav navbar-nav pull-right">
 						<li><a href="#">About</a></li>
 						<li style="padding-top:12px;">|</li>
@@ -160,10 +180,10 @@
                 <!-- BEGIN IMAGE PARRALAX -->
                 
                   <div id="cf" class="" data-swiper-parallax="30%">
-                    <img draggable="false" src="assets/images/microphone_blur.png" class="image-fade img-responsive-height" alt="" title="">
+                    <img draggable="false" src="assets/images/microphone_blur.png" class="image-fade img-responsive-height " alt="" title="">
 					<img draggable="false" src="assets/images/buildings.png" class="image-fade  img-responsive-height " alt="" title="">
 					<img draggable="false" src="assets/images/classroom.png" class="image-fade  img-responsive-height " alt="" title="">
-					<img draggable="false" src="assets/images/hero_1.jpg" class="image-fade  img-responsive-height" alt="" title="">
+					<img id="loadpage" draggable="false" src="assets/images/hero_1.jpg" class="image-fade  img-responsive-height" alt="" title="">
                   </div>
                 
                 <!-- END IMAGE PARRALAX -->
@@ -194,7 +214,7 @@
                     <div style="display:inline"  class="col-xs-2  ">
                       <div class="form-group form-group-default">
 						<label class="control-label">Email</label>
-						<input type="email" name="email" placeholder="Enter your email" class="form-control input-sm" required>
+						<input type="email" name="email" placeholder="" class="form-control input-sm" required>
 						
 					  </div>
                     </div>
@@ -440,6 +460,11 @@
 				<a href="" class="googleplus" title="GooglePlus" target="blank"><i id="purpcolor"   class="fa fa-google-plus-square fa-2x"></i></a>
 				<a href="" class="linkedin" title="LinkedIn" target="blank"><i id="purpcolor"   class="fa fa-linkedin-square fa-2x"></i></a>
 				<a href="" class="youtube" title="Youtube" target="blank"><i id="purpcolor"  class="fa fa-youtube-square fa-2x"></i></a>
+				<a href="" class="snapchat" title="Snapchat" target="blank"><i id="purpcolor"  class="fa fa-snapchat-square fa-2x"></i></a>
+				<a href="" class="pinterest" title="Pinterest" target="blank"><i id="purpcolor"  class="fa fa-pinterest-square fa-2x"></i></a>
+				<a href="" class="reddit" title="Reddit" target="blank"><i id="purpcolor"  class="fa fa-reddit-square fa-2x"></i></a>
+				<a href="" class="tumblr" title="Tumblr" target="blank"><i id="purpcolor"  class="fa fa-tumblr-square fa-2x"></i></a>
+				<a href="" class="flickr" title="Flickr" target="blank"><i id="purpcolor"  class="fa fa-flickr fa-2x"></i></a>
 			</div>
 			<div class="row text-center p-t-30"><a href="#top"><i style="color:#626262" class="fa fa-arrow-circle-up fa-3x p-b-0 align-right" ></i></a>
 			<p class="small hint-text p-t-0 text-white text-center ">Top</p>
