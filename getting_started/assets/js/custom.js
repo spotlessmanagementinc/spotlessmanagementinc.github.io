@@ -1,4 +1,11 @@
 $(document).ready(function() {
+	
+	//Initialize scroll function 
+	    $('#start_tour').click(function() {
+        $("#notifications").velocity("scroll", {
+            duration: 800
+        });
+    })
     'use strict';
     //Intialize Slider
     var slider = new Swiper('#hero', {
@@ -62,6 +69,9 @@ $(document).ready(function() {
         parallax: true,
         speed: 1000
     });
-    
+  
+
+
+
 
 });
