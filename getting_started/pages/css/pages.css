@@ -8852,9 +8852,9 @@ animation-duration: 48s;
 }
 .image-fade{
 	background-color:#000000;
-	position: relative;
-	width:1920;
-	height:1080;
+	position: absolute;
+	background-size: cover;
+
 }
  .form-custom{
 	 position:absolute;
