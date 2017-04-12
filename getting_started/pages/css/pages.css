@@ -8783,10 +8783,10 @@ sup.dollar {
 	animation-direction: alternate;
 }
 @keyframes example {
-    0% {color: #00a4e4;}
+    0% {color: #0066a6;}
     20% {color: #ec600f;}
 	40%{color: #a18962;}
-	60%{color: #4b8d79;}
+	60%{color: #828282;}
 	80%{color: #ff3c36;}
 	100% {color: pink;}
 }
