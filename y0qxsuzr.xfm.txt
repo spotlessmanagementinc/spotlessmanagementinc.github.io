@@ -1,0 +1,23 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   blocks/assets/images/Thumbs.db
+#	modified:   getting_started/Thumbs.db
+#	modified:   getting_started/assets/images/Thumbs.db
+#	new file:   getting_started/assets/images/driversseat_about.png
+#	new file:   getting_started/assets/images/driversseat_blk.png
+#	new file:   getting_started/assets/images/quotes.png
+#	new file:   getting_started/assets/js/contact.js
+#	modified:   getting_started/assets/js/custom.js
+#	modified:   getting_started/contact.html
+#	new file:   getting_started/contact1 - original.html
+#	new file:   getting_started/contact3.html
+#	modified:   getting_started/index.html
+#	new file:   getting_started/index_remove_dates_testimonial.html
+#	modified:   getting_started/pages/css/pages.css
+#
+

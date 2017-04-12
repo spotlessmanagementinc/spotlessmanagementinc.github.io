@@ -1903,6 +1903,7 @@ hr.dotted {
 .bg-master-lightest {
   background-color: #fafafa;
 }
+
 .bg-master-dark {
   background-color: #2c2c2c;
 }
@@ -8772,21 +8773,21 @@ sup.dollar {
 /*** Retina Display Images **/
 /*-- Custom CSS-----------*/
 #purpcolor{
-	color:#584b8d;	
+	color:#a18962;	
 }
 #purpcolor:hover{
-	color: #584b8d;
+	color: #a18962;
     animation-name: example;
     animation-duration: 4s;
 	animation-iteration-count:infinite;
 	animation-direction: alternate;
 }
 @keyframes example {
-    0% {color: #584b8d;}
-    20% {color: #8d4b5e;}
-	40%{color: #7f8d4b;}
+    0% {color: #00a4e4;}
+    20% {color: #ec600f;}
+	40%{color: #a18962;}
 	60%{color: #4b8d79;}
-	80%{color: #794b8d;}
+	80%{color: #ff3c36;}
 	100% {color: pink;}
 }
 #shadowy{
@@ -8868,3 +8869,71 @@ animation-duration: 48s;
 #content img { 
     display:none; 
 } 
+.btn-orange,
+.btn-orange:focus {
+  color: #ffffff;
+  background-color: #ec600f;
+  border-color: #ec600f;
+}
+.btn-orange.active,
+.btn-orange:active,
+.btn-orange.active:focus,
+.btn-orange:active:focus,
+.btn-orange:active:hover,
+.open .dropdown-toggle.btn-orange {
+  background-color: #ec600f;
+  border-color: #ec600f;
+  color: #ffffff;
+}
+.btn-orange.hover,
+.btn-orange:hover,
+.open .dropdown-toggle.btn-orange {
+  background-color: #f98348;
+  border-color: #f98348;
+  color: #ffffff;
+}
+.btn-orange.active:hover {
+  background: #f98348;
+  border-color: #f98348;
+}
+.btn-orange.disabled,
+.btn-orange[disabled],
+fieldset[disabled] .btn-blue,
+.btn-orange.disabled:hover,
+.btn-orange[disabled]:hover,
+fieldset[disabled] .btn-blue:hover,
+.btn-orange.disabled:focus,
+.btn-orange[disabled]:focus,
+fieldset[disabled] .btn-blue:focus,
+.btn-orange.disabled:active,
+.btn-orange[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-orange.disabled.active,
+.btn-orange[disabled].active,
+fieldset[disabled] .btn-blue.active {
+  background-color: #6d5cae;
+  border-color: #6d5cae;
+}
+.btn-orange .badge {
+  color: #6d5cae;
+  background-color: #ffffff;
+}
+.p-b-200{
+	padding-bottom:200px;
+}
+.p-b-250{
+	padding-bottom:250px;
+}
+.p-b-300{
+	padding-bottom:300px;
+}
+.p-b-350{
+	padding-bottom:350px;
+}
+.p-b-400{
+	padding-bottom:400px;
+}
+.bg-master-image{
+	background-image: url('../images/driversseat_about.png');
+	
+}
