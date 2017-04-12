@@ -53,7 +53,7 @@ $(document).ready(function() {
 
         }
     });
-	 //Intialize Testamonials
+	 //Intialize Testamonial
     var testimonials_slider = new Swiper('#demo-testimonial-1 .swiper-container', {
         pagination: '.swiper-pagination',
         paginationClickable: true,
