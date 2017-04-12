@@ -8869,6 +8869,7 @@ animation-duration: 48s;
 #content img { 
     display:none; 
 } 
+/* Buttons orange*/
 .btn-orange,
 .btn-orange:focus {
   color: #ffffff;
