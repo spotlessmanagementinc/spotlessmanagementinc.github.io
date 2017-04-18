@@ -925,6 +925,10 @@ body.pace-white .pace .pace-progress {
   background-size: cover;
   position: relative;
 }
+[data-pages-bg-image2] {
+	max-width: 100%;
+	height: auto;
+}
 [data-pages-bg-image] > * {
   z-index: 1;
   position: relative;
@@ -1909,6 +1913,12 @@ hr.dotted {
 }
 .bg-master-darkest {
   background-color: #121212;
+}
+.bg-master-oy2 {
+  background-color: #2b2a3b;
+}
+.bg-master-oy {
+  background-color: #03021d;
 }
 /* Contextual Colors
 ------------------------------------
@@ -8915,4 +8925,8 @@ fieldset[disabled] .btn-orange.active {
 }
 .text-b {
   color: #000000 !important;
+}
+.img-fluid{
+	max-width: 100%;
+	height: auto;	
 }
