@@ -8907,6 +8907,12 @@ fieldset[disabled] .btn-orange.active {
 	content:"me";
 	color:#ffffff;
 }
+.m-t-400{
+	margin-top: 400px;
+}
 .m-t-600{
 	margin-top: 600px;
+}
+.text-b {
+  color: #000000 !important;
 }
