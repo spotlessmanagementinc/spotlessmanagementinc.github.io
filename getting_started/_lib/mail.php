@@ -6,14 +6,14 @@
     //============================================================
     $name =     filter_var($_POST["name"], FILTER_SANITIZE_STRING);
     $email =    filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
-    $formMessage =  filter_var($_POST["message"], FILTER_SANITIZE_STRING);
+    //$formMessage =  filter_var($_POST["message"], FILTER_SANITIZE_STRING);
 
     // CONFIG YOUR EMAIL MESSAGE
     //============================================================
-    $message = '<p>The following request was sent from: </p>';
+    $message = '<p>Subscriber service request </p>';
     $message .= '<p>Name: ' . $name . '</p>';
     $message .= '<p>Email: ' . $email . '</p>';
-    $message .= '<p>Message: ' . $formMessage .'</p>';
+    //$message .= '<p>Message: ' . $formMessage .'</p>';
 
     // CONFIG YOUR MAIL SERVER
     //============================================================
@@ -21,22 +21,22 @@
     $mail->isSMTP();                                    // Enable SMTP authentication
     $mail->SMTPAuth = true;                             // Set mailer to use SMTP
     //Sign up with MAIL GUN
-    $mail->Host = 'smtp.mailgun.org';                // Specify main and backup server (this is a fake name for the use of this example)             
+    $mail->Host = 'ph102.peopleshostshared.com';                // Specify main and backup server (this is a fake name for the use of this example)             
 
-    $mail->Username = 'postmaster@mycompany.com';                  // SMTP username
-    $mail->Password = '';                         // SMTP password
+    $mail->Username = 'info@oliveryarbrough.com';                  // SMTP username
+    $mail->Password = 'OliyarcatA201';                         // SMTP password
     $mail->SMTPSecure = 'tls';                          // Enable encryption, 'ssl' also accepted                                   
     $mail->Port = 587;                        
 
     $mail->From = $email;
     $mail->FromName = $name;
     $mail->AddReplyTo($email,$name);
-    $mail->addAddress('support@myemail.com', $name);  // Add a recipient
+    $mail->addAddress('info@oliveryarbrough.com', $name);  // Add a recipient
 
     $mail->WordWrap = 50;                               // Set word wrap to 50 characters
     $mail->isHTML(true);                                // Set email format to HTML
 
-    $mail->Subject = 'Contact request';
+    $mail->Subject = 'Subscription request';
     $mail->Body    = $message;
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
