@@ -69,7 +69,7 @@ $(document).ready(function() {
         parallax: true,
 		loop: true,
 		autoplay: true,
-        speed: 5000
+        speed: 8000
     });
   
 	$(function() {
