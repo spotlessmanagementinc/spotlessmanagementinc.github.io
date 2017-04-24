@@ -8930,3 +8930,9 @@ fieldset[disabled] .btn-orange.active {
 	max-width: 100%;
 	height: auto;	
 }
+.block-titlereg {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+}
