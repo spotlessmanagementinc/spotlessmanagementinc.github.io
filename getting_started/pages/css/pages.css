@@ -8748,9 +8748,17 @@ sup.dollar {
 /*** Retina Display Images **/
 /*-- Custom CSS-----------*/
 #purpcolor{
-	color:#a18962;	
+	color:#494968;	
 }
 #purpcolor:hover{
+	color: #d9771b;
+	transition-duration: 1s;
+
+}
+#purpcolor2{
+	color:#a18962;	
+}
+#purpcolor2:hover{
 	color: #a18962;
     animation-name: example;
     animation-duration: 4s;
